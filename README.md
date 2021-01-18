@@ -1,3 +1,3 @@
 # portfolio
 
-My programs when i studied 
+my programs when I was studying 
