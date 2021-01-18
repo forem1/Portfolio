@@ -1,0 +1,48 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="MailClient.AuthPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MailClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel MaxWidth="250" Margin="0,20,0,20" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+        <TextBox x:ConnectionId='2'
+                    HorizontalAlignment="Stretch" 
+                    PlaceholderText="Отображаемое имя"  
+                    Header="Отображаемое имя"
+                                  
+                                                 
+                                         
+                                            
+                                   
+                      
+                />
+        <TextBox x:ConnectionId='3'
+                    HorizontalAlignment="Stretch" 
+                    PlaceholderText="Электронный адрес"  
+                    Header="Электронный адрес"
+                                  
+                                              
+                                         
+                                            
+                                   
+                      
+                />
+        <PasswordBox x:ConnectionId='4' 
+                    HorizontalAlignment="Stretch"
+                    PlaceholderText="Пароль"
+                    Header="Пароль"
+                                      
+                                                 
+                                         
+                                            
+                                   
+                      
+                />
+        <Button x:ConnectionId='5' x:Name="AuthBtn"                       HorizontalAlignment="Stretch" Margin="0,20,0,0">Войти</Button>
+    </StackPanel>
+</Page>
+

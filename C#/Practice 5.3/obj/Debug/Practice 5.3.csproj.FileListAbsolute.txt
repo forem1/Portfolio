@@ -1,0 +1,7 @@
+C:\lessons\C#\Practice 5.3\bin\Debug\Practice 5.3.exe.config
+C:\lessons\C#\Practice 5.3\bin\Debug\Practice 5.3.exe
+C:\lessons\C#\Practice 5.3\bin\Debug\Practice 5.3.pdb
+C:\lessons\C#\Practice 5.3\obj\Debug\Practice 5.3.csprojAssemblyReference.cache
+C:\lessons\C#\Practice 5.3\obj\Debug\Practice 5.3.csproj.CoreCompileInputs.cache
+C:\lessons\C#\Practice 5.3\obj\Debug\Practice 5.3.exe
+C:\lessons\C#\Practice 5.3\obj\Debug\Practice 5.3.pdb

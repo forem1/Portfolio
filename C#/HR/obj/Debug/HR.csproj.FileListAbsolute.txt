@@ -1,0 +1,21 @@
+C:\lessons\C#\HR\HR\bin\Debug\HR.exe.config
+C:\lessons\C#\HR\HR\bin\Debug\HR.exe
+C:\lessons\C#\HR\HR\bin\Debug\HR.pdb
+C:\lessons\C#\HR\HR\obj\Debug\HR.csprojAssemblyReference.cache
+C:\lessons\C#\HR\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
+C:\lessons\C#\HR\HR\obj\Debug\HR.exe
+C:\lessons\C#\HR\HR\obj\Debug\HR.pdb
+C:\Users\Андрей\Google Диск\HR\bin\Debug\HR.exe.config
+C:\Users\Андрей\Google Диск\HR\bin\Debug\HR.exe
+C:\Users\Андрей\Google Диск\HR\bin\Debug\HR.pdb
+C:\Users\Андрей\Google Диск\HR\obj\Debug\HR.csprojAssemblyReference.cache
+C:\Users\Андрей\Google Диск\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Google Диск\HR\obj\Debug\HR.exe
+C:\Users\Андрей\Google Диск\HR\obj\Debug\HR.pdb
+C:\lessons\C#\HR\bin\Debug\HR.exe.config
+C:\lessons\C#\HR\bin\Debug\HR.exe
+C:\lessons\C#\HR\bin\Debug\HR.pdb
+C:\lessons\C#\HR\obj\Debug\HR.csprojAssemblyReference.cache
+C:\lessons\C#\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
+C:\lessons\C#\HR\obj\Debug\HR.exe
+C:\lessons\C#\HR\obj\Debug\HR.pdb

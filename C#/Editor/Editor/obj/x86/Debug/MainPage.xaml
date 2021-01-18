@@ -1,0 +1,92 @@
+﻿<Page
+    x:Class="Editor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Editor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <MenuBar Grid.Row="0">
+            <MenuBarItem Title="Файл" AccessKey="F">
+
+                <MenuFlyoutItem x:ConnectionId='6' Text="Открыть" Icon="OpenFile"                         >
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="O" Modifiers="Control" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem x:ConnectionId='7' Text="Сохранить" Icon="Save"                         >
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="S" Modifiers="Control" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem x:ConnectionId='8' Text="Сохранить как" Icon="Save"                           >
+
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem x:ConnectionId='9' Text="Закрыть"              >
+                
+                </MenuFlyoutItem>
+            </MenuBarItem>
+            
+            <MenuBarItem Title="Правка" AccessKey="E">
+
+                <MenuFlyoutItem Text="Отменить">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="Z" Modifiers="Control" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem Text="Вырезать">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="X" Modifiers="Control" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem Text="Копировать">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="C" Modifiers="Control" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem Text="Вставить">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="V" Modifiers="Control" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem Text="Выделить все">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="A" Modifiers="Control" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+            </MenuBarItem>
+            
+            <MenuBarItem Title="Справка" AccessKey="H">
+
+                <MenuFlyoutItem x:ConnectionId='4' Text="Посмотреть справку"                   >
+                    
+                </MenuFlyoutItem>
+
+                <MenuFlyoutItem x:ConnectionId='5' Text="О программе"                    >
+                    
+                </MenuFlyoutItem>
+            </MenuBarItem>
+        </MenuBar>
+
+        <TextBlock x:ConnectionId='2' x:Name="FileName" Grid.Row="1" HorizontalAlignment="Center"/>
+
+        <RichEditBox x:ConnectionId='3' x:Name="editor" Grid.Row="2"/>
+    </Grid>
+</Page>
+

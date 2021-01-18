@@ -1,0 +1,25 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Classroom.Student"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Classroom"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <controls:DataGrid x:ConnectionId='2'  x:Name="StudentGrid"                              AutoGenerateColumns="False" RowDetailsVisibilityMode="VisibleWhenSelected">
+
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn Header="ID" Binding="{Binding IdMark}" IsReadOnly="True"/>
+                <controls:DataGridTextColumn Header="Teacher" Binding="{Binding TeacherMark}" IsReadOnly="True"/>
+                <controls:DataGridTextColumn Header="Discipline" Binding="{Binding DisciplineMark}" IsReadOnly="True"/>
+                <controls:DataGridComboBoxColumn Header="Mark" Binding="{Binding MarkMark}" IsReadOnly="True"/>
+                <controls:DataGridTextColumn Header="Date" Binding="{Binding DateMark}" IsReadOnly="True"/>
+
+            </controls:DataGrid.Columns>
+        </controls:DataGrid>
+    </Grid>
+</Page>
+

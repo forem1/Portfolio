@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Classroom.register"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Classroom"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:ConnectionId='2' x:Name="LoginReg" Margin="30" Width="300"  HorizontalAlignment="Center" Grid.Row="0" PlaceholderText="Логин"/>
+        <PasswordBox x:ConnectionId='3' x:Name="PasswordReg" Margin="30" Width="300" HorizontalAlignment="Center" Grid.Row="1" PlaceholderText="Пароль"/>
+        <PasswordBox x:ConnectionId='4' x:Name="KeyReg" Margin="30" Width="300" HorizontalAlignment="Center" Grid.Row="2" PlaceholderText="Секретный ключ"/>
+        <Button x:ConnectionId='5'                          Content="Регистрация" Margin="20"  HorizontalAlignment="Center" Grid.Row="3"/>
+        <Button x:ConnectionId='6'                            Content="Вернуться" Margin="20"  HorizontalAlignment="Center" Grid.Row="4"/>
+        <TextBlock Text="12345 - учитель; 67890 - админ; пусто - ученик"/>
+    </Grid>
+</Page>
+

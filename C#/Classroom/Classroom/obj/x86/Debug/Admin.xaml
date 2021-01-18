@@ -1,0 +1,127 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Classroom.Admin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="Classroom.Admin"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"      
+        
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Frame x:ConnectionId='2' x:Name="AdminMainFrame">
+        <Grid>
+            <Grid.Resources>
+                <DataTemplate x:Key="RowDetailsTemplate">
+
+
+                    <Grid  Padding="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                    </Grid>
+
+                </DataTemplate>
+
+            </Grid.Resources>
+            <Pivot Title="Администратор">
+                <PivotItem Header="Дисциплины">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Orientation="Horizontal" Grid.Row="0">
+                            <AppBarButton x:ConnectionId='18' x:Name="AddNewDisciplineBtn" Label="Add"                                   AllowFocusOnInteraction="True" Icon="Add">
+                                <FlyoutBase.AttachedFlyout>
+                                    <Flyout x:ConnectionId='20' x:Name="AddNewDisciplineFlyout"  ShowMode="Standard" LightDismissOverlayMode="On">
+                                        <Grid>
+                                            <StackPanel>
+                                                <TextBox x:ConnectionId='21' x:Name="AddDisciplineNameBox" Header="Name" Width="200" Margin="8"/>
+                                                <TextBox x:ConnectionId='22' x:Name="AddDisciplineDescriptionBox" Header="Description" Width="200" Margin="8"/>
+                                                <Button x:ConnectionId='23' x:Name="AddDisciplineConfirmBtn"                                       Width="200" Content="Confirm" Margin="8"/>
+
+                                            </StackPanel>
+                                        </Grid>
+                                    </Flyout>
+                                </FlyoutBase.AttachedFlyout>
+                            </AppBarButton>
+
+                            <AppBarButton x:ConnectionId='19' x:Name="DeleteSelectedDiscipline" Label="Deactivate"                                            Icon="Delete"/>
+                        </StackPanel>
+
+
+                        <controls:DataGrid x:ConnectionId='17'  x:Name="DisciplinesGrid" Grid.Row="1"                                                                      AutoGenerateColumns="False" RowDetailsVisibilityMode="VisibleWhenSelected" RowDetailsTemplate="{StaticResource RowDetailsTemplate}">
+
+                            <controls:DataGrid.Columns>
+                                <controls:DataGridTextColumn Header="ID" Binding="{Binding IdDisc}" IsReadOnly="True"/>
+                                <controls:DataGridTextColumn Header="Name" Binding="{Binding NameDisc}" />
+                                <controls:DataGridTextColumn Header="Description" Binding="{Binding DescriptionDisc}"/>
+                                <controls:DataGridTextColumn Header="Active" Binding="{Binding ActiveDisc}"/>
+                            </controls:DataGrid.Columns>
+                        </controls:DataGrid>
+
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Группы">
+                    <ListView x:ConnectionId='16' x:Name="GroupsList">
+                        <x:String>sdf</x:String>
+                    </ListView>
+                </PivotItem>
+                <PivotItem Header="Пользователи">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Orientation="Horizontal" Grid.Row="0">
+                            <AppBarButton x:ConnectionId='6' x:Name="AddNewUserBtn" Label="Add"                             AllowFocusOnInteraction="True" Icon="Add">
+                                <FlyoutBase.AttachedFlyout>
+                                    <Flyout x:ConnectionId='10' x:Name="AddNewUserFlyout"  ShowMode="Standard" LightDismissOverlayMode="On">
+                                        <Grid>
+                                            <StackPanel>
+                                                <TextBox x:ConnectionId='11' x:Name="AddUserLoginBox" Header="Login" Width="200" Margin="8"/>
+                                                <PasswordBox x:ConnectionId='12' x:Name="AddUSerPasswordBox" Header="Password" Width="200" Margin="8"/>
+                                                <ComboBox x:ConnectionId='13' x:Name="AddNewUserRoleCBox" Width="200" Margin="8" Header="Role"                                                       >
+                                                    <x:String>Admin</x:String>
+                                                    <x:String>Teacher</x:String>
+                                                    <x:String>Student</x:String>
+                                                </ComboBox>
+                                                <TextBox x:ConnectionId='14' x:Name="AddNewUserGroupBox" Width="200" Margin="8" Header="Group" IsEnabled="False"/>
+                                                <Button x:ConnectionId='15' x:Name="AddUserConfirmBtn"                                 Width="200" Content="Confirm" Margin="8"/>
+
+                                            </StackPanel>
+                                        </Grid>
+                                    </Flyout>
+                                </FlyoutBase.AttachedFlyout>
+                            </AppBarButton>
+
+                            <AppBarButton x:ConnectionId='7' x:Name="DeleteSelectedUser" Label="Delete"                                  Icon="Delete"/>
+                            <ComboBox x:ConnectionId='8' x:Name="GroupReportSelector" PlaceholderText="Select group" VerticalAlignment="Center"/>
+                            <AppBarButton x:ConnectionId='9' Label="Create report" Icon="Share"                           />
+                        </StackPanel>
+
+
+                        <controls:DataGrid x:ConnectionId='4'  x:Name="UsersGrid" Grid.Row="1"                              AutoGenerateColumns="False" CanUserSortColumns="True"                             >
+
+                            <controls:DataGrid.Columns>
+                                <controls:DataGridTextColumn Header="ID" Binding="{Binding Id}" IsReadOnly="True"/>
+                                <controls:DataGridTextColumn Header="Login" Binding="{Binding Login}" />
+                                <controls:DataGridTextColumn Header="Password" Binding="{Binding Password}"/>
+                                <controls:DataGridComboBoxColumn x:ConnectionId='5'
+                                    Binding="{Binding Role}"
+                                    Header="Role"
+                                                                 />
+                                <controls:DataGridTextColumn Header="Group" Binding="{Binding Group}" />
+
+                            </controls:DataGrid.Columns>
+                        </controls:DataGrid>
+
+                    </Grid>
+                </PivotItem>
+            </Pivot>
+        </Grid>
+    </Frame>
+</Page>
+

@@ -1,0 +1,7 @@
+C:\lessons\C#\Practice 5\obj\Debug\Practice 5.csprojAssemblyReference.cache
+C:\lessons\C#\Practice 5\obj\Debug\Practice 5.csproj.CoreCompileInputs.cache
+C:\lessons\C#\Practice 5\bin\Debug\Practice 5.exe.config
+C:\lessons\C#\Practice 5\bin\Debug\Practice 5.exe
+C:\lessons\C#\Practice 5\bin\Debug\Practice 5.pdb
+C:\lessons\C#\Practice 5\obj\Debug\Practice 5.exe
+C:\lessons\C#\Practice 5\obj\Debug\Practice 5.pdb

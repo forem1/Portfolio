@@ -1,0 +1,7 @@
+C:\lessons\C#\Explorer\bin\Debug\Explorer.exe.config
+C:\lessons\C#\Explorer\bin\Debug\Explorer.exe
+C:\lessons\C#\Explorer\bin\Debug\Explorer.pdb
+C:\lessons\C#\Explorer\obj\Debug\Explorer.csprojAssemblyReference.cache
+C:\lessons\C#\Explorer\obj\Debug\Explorer.csproj.CoreCompileInputs.cache
+C:\lessons\C#\Explorer\obj\Debug\Explorer.exe
+C:\lessons\C#\Explorer\obj\Debug\Explorer.pdb

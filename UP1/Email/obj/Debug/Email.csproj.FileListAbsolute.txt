@@ -1,0 +1,10 @@
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\obj\Debug\Email.csprojAssemblyReference.cache
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\obj\Debug\Email.Form1.resources
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\obj\Debug\Email.Properties.Resources.resources
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\obj\Debug\Email.csproj.GenerateResource.cache
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\obj\Debug\Email.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\bin\Debug\Email.exe.config
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\bin\Debug\Email.exe
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\bin\Debug\Email.pdb
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\obj\Debug\Email.exe
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Email\obj\Debug\Email.pdb

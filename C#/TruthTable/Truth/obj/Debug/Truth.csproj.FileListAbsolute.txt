@@ -1,0 +1,6 @@
+C:\Users\Andrey\Desktop\Таблица истинности\Truth\obj\Debug\Truth.csprojAssemblyReference.cache
+C:\Users\Andrey\Desktop\Таблица истинности\Truth\obj\Debug\Таблица истинности.exe
+C:\Users\Andrey\Desktop\Таблица истинности\Truth\obj\Debug\Таблица истинности.pdb
+C:\Users\Andrey\Desktop\Таблица истинности\Truth\bin\Debug\Таблица истинности.exe.config
+C:\Users\Andrey\Desktop\Таблица истинности\Truth\bin\Debug\Таблица истинности.exe
+C:\Users\Andrey\Desktop\Таблица истинности\Truth\bin\Debug\Таблица истинности.pdb

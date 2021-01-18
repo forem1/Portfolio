@@ -1,0 +1,7 @@
+C:\Users\Tolik\source\repos\Таблица истинности\Таблица истинности\bin\Debug\Таблица истинности.exe.config
+C:\Users\Tolik\source\repos\Таблица истинности\Таблица истинности\bin\Debug\Таблица истинности.exe
+C:\Users\Tolik\source\repos\Таблица истинности\Таблица истинности\bin\Debug\Таблица истинности.pdb
+C:\Users\Tolik\source\repos\Таблица истинности\Таблица истинности\obj\Debug\Таблица истинности.csprojAssemblyReference.cache
+C:\Users\Tolik\source\repos\Таблица истинности\Таблица истинности\obj\Debug\Таблица истинности.csproj.CoreCompileInputs.cache
+C:\Users\Tolik\source\repos\Таблица истинности\Таблица истинности\obj\Debug\Таблица истинности.exe
+C:\Users\Tolik\source\repos\Таблица истинности\Таблица истинности\obj\Debug\Таблица истинности.pdb

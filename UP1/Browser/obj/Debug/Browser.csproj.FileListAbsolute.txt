@@ -1,0 +1,12 @@
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\bin\Debug\Browser.exe.config
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\bin\Debug\Browser.exe
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\bin\Debug\Browser.pdb
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.csprojAssemblyReference.cache
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.Form1.resources
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.Properties.Resources.resources
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.csproj.GenerateResource.cache
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.exe
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.pdb
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.Downloads.resources
+C:\Users\Andrey\Google Диск\Портфолио\WinForms\Browser\obj\Debug\Browser.History.resources

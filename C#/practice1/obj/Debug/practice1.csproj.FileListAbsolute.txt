@@ -1,0 +1,14 @@
+C:\Users\Андрей\Desktop\practice1\bin\Debug\practice1.exe.config
+C:\Users\Андрей\Desktop\practice1\bin\Debug\practice1.exe
+C:\Users\Андрей\Desktop\practice1\bin\Debug\practice1.pdb
+C:\Users\Андрей\Desktop\practice1\obj\Debug\practice1.csprojAssemblyReference.cache
+C:\Users\Андрей\Desktop\practice1\obj\Debug\practice1.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Desktop\practice1\obj\Debug\practice1.exe
+C:\Users\Андрей\Desktop\practice1\obj\Debug\practice1.pdb
+C:\lessons\C#\practice1\bin\Debug\practice1.exe.config
+C:\lessons\C#\practice1\bin\Debug\practice1.exe
+C:\lessons\C#\practice1\bin\Debug\practice1.pdb
+C:\lessons\C#\practice1\obj\Debug\practice1.csprojAssemblyReference.cache
+C:\lessons\C#\practice1\obj\Debug\practice1.csproj.CoreCompileInputs.cache
+C:\lessons\C#\practice1\obj\Debug\practice1.exe
+C:\lessons\C#\practice1\obj\Debug\practice1.pdb

@@ -1,0 +1,60 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Classroom.Teacher"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Classroom"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <AppBarButton x:ConnectionId='3' x:Name="AddNewMarkBtn" Label="Add"                             AllowFocusOnInteraction="True" Icon="Add">
+                <FlyoutBase.AttachedFlyout>
+                    <Flyout x:ConnectionId='5' x:Name="AddNewMarkFlyout"  ShowMode="Standard" LightDismissOverlayMode="On">
+                        <Grid>
+                            <StackPanel>
+                                <ComboBox x:ConnectionId='6' x:Name="AddMarkStudentCBox" Header="Student" Width="200" Margin="8"/>
+                                 <ComboBox x:ConnectionId='7' x:Name="AddMarkDisciplineCBox" Header="Discipline" Width="200" Margin="8"/>
+                                <ComboBox x:ConnectionId='8' x:Name="AddMarkMarkCBox" Header="Mark" Width="200" Margin="8">
+                                    <x:String>5</x:String>
+                                    <x:String>4</x:String>
+                                    <x:String>3</x:String>
+                                    <x:String>2</x:String>
+                                    <x:String>1</x:String>
+                                </ComboBox>
+                                <ComboBox x:ConnectionId='9' x:Name="AddMarkGroupCBox" Header="Group" Width="200" Margin="8">
+                                </ComboBox>
+                                <Button x:ConnectionId='10'                                 Width="200" Content="Confirm" Margin="8"/>
+
+                            </StackPanel>
+                        </Grid>
+                    </Flyout>
+                </FlyoutBase.AttachedFlyout>
+            </AppBarButton>
+
+            <AppBarButton x:ConnectionId='4' Label="Delete"                                  Icon="Delete"/>
+        </StackPanel>
+
+
+        <controls:DataGrid x:ConnectionId='2'  x:Name="TeacherGrid" Grid.Row="1"                                AutoGenerateColumns="False" RowDetailsVisibilityMode="VisibleWhenSelected">
+
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn Header="ID" Binding="{Binding IdMark}" IsReadOnly="True"/>
+                <controls:DataGridTextColumn Header="Student" Binding="{Binding StudentMark}" IsReadOnly="True"/>
+                <controls:DataGridTextColumn Header="Discipline" Binding="{Binding DisciplineMark}" IsReadOnly="True"/>
+                <controls:DataGridComboBoxColumn Header="Mark" Binding="{Binding MarkMark}" IsReadOnly="True"/>
+                <controls:DataGridTextColumn Header="Date" Binding="{Binding DateMark}" IsReadOnly="True"/>
+                <controls:DataGridTextColumn Header="Group" Binding="{Binding GroupMark}" IsReadOnly="True"/>
+
+            </controls:DataGrid.Columns>
+        </controls:DataGrid>
+
+    </Grid>
+</Page>
+

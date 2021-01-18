@@ -1,0 +1,7 @@
+C:\lessons\C#\Practice 4(dual)\bin\Debug\Practice 4(dual).exe.config
+C:\lessons\C#\Practice 4(dual)\bin\Debug\Practice 4(dual).exe
+C:\lessons\C#\Practice 4(dual)\bin\Debug\Practice 4(dual).pdb
+C:\lessons\C#\Practice 4(dual)\obj\Debug\Practice 4(dual).csprojAssemblyReference.cache
+C:\lessons\C#\Practice 4(dual)\obj\Debug\Practice 4(dual).csproj.CoreCompileInputs.cache
+C:\lessons\C#\Practice 4(dual)\obj\Debug\Practice 4(dual).exe
+C:\lessons\C#\Practice 4(dual)\obj\Debug\Practice 4(dual).pdb

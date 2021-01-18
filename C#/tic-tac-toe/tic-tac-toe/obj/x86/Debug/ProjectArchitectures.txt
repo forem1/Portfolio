@@ -1,0 +1,1 @@
+C:\Users\Andrey\Google Диск\Портфолио\C#\tic-tac-toe\tic-tac-toe\tic-tac-toe.csproj;x86

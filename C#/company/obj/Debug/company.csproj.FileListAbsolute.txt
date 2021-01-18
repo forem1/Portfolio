@@ -1,0 +1,14 @@
+C:\lessons\C#\company\bin\Debug\company.exe.config
+C:\lessons\C#\company\bin\Debug\company.exe
+C:\lessons\C#\company\bin\Debug\company.pdb
+C:\lessons\C#\company\obj\Debug\company.csprojAssemblyReference.cache
+C:\lessons\C#\company\obj\Debug\company.csproj.CoreCompileInputs.cache
+C:\lessons\C#\company\obj\Debug\company.exe
+C:\lessons\C#\company\obj\Debug\company.pdb
+C:\Users\Andrey\Google Диск\Портфолио\C#\company\bin\Debug\company.exe.config
+C:\Users\Andrey\Google Диск\Портфолио\C#\company\bin\Debug\company.exe
+C:\Users\Andrey\Google Диск\Портфолио\C#\company\bin\Debug\company.pdb
+C:\Users\Andrey\Google Диск\Портфолио\C#\company\obj\Debug\company.csprojAssemblyReference.cache
+C:\Users\Andrey\Google Диск\Портфолио\C#\company\obj\Debug\company.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Google Диск\Портфолио\C#\company\obj\Debug\company.exe
+C:\Users\Andrey\Google Диск\Портфолио\C#\company\obj\Debug\company.pdb
