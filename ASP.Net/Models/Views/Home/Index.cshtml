@@ -1,0 +1,30 @@
+﻿@model TemplatedHelperMethods.Models.Product
+@{
+	Layout = null;
+}
+
+@Html.LabelFor(x => x.Id)
+@Html.EditorFor(x => x.Id)
+<br/>
+
+@Html.LabelFor(x => x.Name)
+@Html.EditorFor(x => x.Name)
+<br/>
+
+@Html.LabelFor(x => x.IsTangible)
+@Html.EditorFor(x => x.IsTangible)
+<br/>
+
+<h2>Шаблонизированные вспомогательные методы (разметка только на чтение)</h2>
+
+@Html.LabelFor(x => x.Id)
+@Html.DisplayFor(x => x.Id)
+<br/>
+
+@Html.LabelFor(x => x.Name)
+@Html.DisplayFor(x => x.Name)
+<br/>
+
+@Html.LabelFor(x => x.IsTangible)
+@Html.DisplayFor(x => x.IsTangible)
+<br/>
