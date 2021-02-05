@@ -1,0 +1,14 @@
+D:\Lessons\Unit Testing Fundamentals\001 Introduction\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCartLibrary.dll
+D:\Lessons\Unit Testing Fundamentals\001 Introduction\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCartLibrary.pdb
+D:\Lessons\Unit Testing Fundamentals\001 Introduction\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCartLibrary.dll
+D:\Lessons\Unit Testing Fundamentals\001 Introduction\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCartLibrary.pdb
+D:\Lessons\Unit Test Fundamentals Video\001 Introduction\003_InitializeAttributes\ShoppingCart\bin\Debug\ShoppingCartLibrary.dll
+D:\Lessons\Unit Test Fundamentals Video\001 Introduction\003_InitializeAttributes\ShoppingCart\bin\Debug\ShoppingCartLibrary.pdb
+D:\Lessons\Unit Test Fundamentals Video\001 Introduction\003_InitializeAttributes\ShoppingCart\obj\Debug\ShoppingCartLibrary.dll
+D:\Lessons\Unit Test Fundamentals Video\001 Introduction\003_InitializeAttributes\ShoppingCart\obj\Debug\ShoppingCartLibrary.pdb
+C:\Users\Andrey\Desktop\Less3\003_InitializeAttributes\ShoppingCart\bin\Debug\ShoppingCartLibrary.dll
+C:\Users\Andrey\Desktop\Less3\003_InitializeAttributes\ShoppingCart\bin\Debug\ShoppingCartLibrary.pdb
+C:\Users\Andrey\Desktop\Less3\003_InitializeAttributes\ShoppingCart\obj\Debug\ShoppingCartLibrary.csprojAssemblyReference.cache
+C:\Users\Andrey\Desktop\Less3\003_InitializeAttributes\ShoppingCart\obj\Debug\ShoppingCartLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Desktop\Less3\003_InitializeAttributes\ShoppingCart\obj\Debug\ShoppingCartLibrary.dll
+C:\Users\Andrey\Desktop\Less3\003_InitializeAttributes\ShoppingCart\obj\Debug\ShoppingCartLibrary.pdb
