@@ -1,0 +1,6 @@
+C:\lessons\testers\secondWork\bin\Debug\secondWork.dll
+C:\lessons\testers\secondWork\bin\Debug\secondWork.pdb
+C:\lessons\testers\secondWork\obj\Debug\secondWork.csprojAssemblyReference.cache
+C:\lessons\testers\secondWork\obj\Debug\secondWork.csproj.CoreCompileInputs.cache
+C:\lessons\testers\secondWork\obj\Debug\secondWork.dll
+C:\lessons\testers\secondWork\obj\Debug\secondWork.pdb
