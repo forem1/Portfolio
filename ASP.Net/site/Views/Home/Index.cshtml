@@ -1,0 +1,116 @@
+﻿@model IEnumerable<Site.Models.Product>
+@{
+    ViewData["Title"] = "AeroDream";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="slider-area">
+    <div class="zigzag-bottom"></div>
+    <div id="slide-list" class="carousel carousel-fade slide" data-ride="carousel">
+
+        <div class="slide-bulletz">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="carousel-indicators slide-indicators">
+                            <li data-target="#slide-list" data-slide-to="0" class="active"></li>
+                            <li data-target="#slide-list" data-slide-to="1"></li>
+                            <li data-target="#slide-list" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="single-slide">
+                    <div class="slide-bg slide-one"></div>
+                    <div class="slide-text-wrapper">
+                        <div class="slide-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-6">
+                                        <div class="slide-content">
+                                            <h2>Первым делом самолеты</h2>
+                                            <p>Наличие собственного самолета — это не только показатель высокого статуса, но и возможность оперативных перелетов в любую точку планеты в любое удобное время. Это особенно актуально для владельцев компаний с разветвленной сетью иностранных представительств и других лиц, которым часто необходимо бывать в разных странах. Флот «Вашего Чартера» — самый крупный на территории России. Предлагаем широкий выбор бортов разной вместимости и комплектации — от небольших легких самолетов для перелетов на небольшие расстояния до ультрадальних бизнес-джетов.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-slide">
+                    <div class="slide-bg slide-two"></div>
+                    <div class="slide-text-wrapper">
+                        <div class="slide-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-6">
+                                        <div class="slide-content">
+                                            <h2>Частные самолеты для покупки</h2>
+                                            <p>Выбор самолета осуществляется по многим параметрам. Вы можете самостоятельно сравнить характеристики понравившихся бортов, или получить квалифированную консультацию у нашего специалиста.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-slide">
+                    <div class="slide-bg slide-three"></div>
+                    <div class="slide-text-wrapper">
+                        <div class="slide-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-6">
+                                        <div class="slide-content">
+                                            <h2>Борты на продажу</h2>
+                                            <p>Все частные самолеты, выставленные на продажу, имеют современный интерьер. Все для комфортного отдыха или эффективной бизнес-деятельности.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div> <!-- End slider area -->
+
+<div class="maincontent-area">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="latest-product">
+                    <h2 class="section-title">Популярное</h2>
+                    <div class="product-carousel">
+                        @foreach (var item in Model)
+                        {
+
+                        <div class="single-product">
+                            <div class="product-f-image">
+                                <img src="~/img/@item.PictureMain" alt="">
+                            </div>
+
+                            <h2><a href="">@item.Title</a></h2>
+
+                            <div class="product-carousel-price">
+                                <ins>$@item.Price</ins>
+                            </div>
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End main content area -->

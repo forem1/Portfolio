@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Авторизация";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@model Site.Models.User
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Авторизация</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="product-content-right">
+                    <div class="woocommerce">
+
+
+                        <form enctype="multipart/form-data" asp-antiforgery="true" asp-controller="Account" asp-action="Auth" class="checkout" method="post" name="checkout">
+                            <div class="validation" asp-validation-summary="ModelOnly"></div>
+                            <div id="customer_details" class="col2-set">
+                                <div class="col-1">
+                                    <div class="woocommerce-billing-fields">
+                                        <p id="billing_email_field" class="form-row form-row-first validate-required validate-email">
+                                            <label asp-for="Email"></label>
+                                            <input asp-for="Email" />
+                                            <span asp-validation-for="Email"></span>
+                                        </p>
+
+                                        <p id="billing_first_name_field" class="form-row form-row-first">
+                                            <label asp-for="Password"></label>
+                                            <input asp-for="Password" />
+                                            <span asp-validation-for="Password"></span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-row place-order">
+
+                                <input type="submit" data-value="Place order" value="Авторизация" id="place_order" name="woocommerce_checkout_place_order" class="button alt">
+
+
+                            </div>
+
+                            <div class="clear"></div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

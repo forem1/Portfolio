@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Личный кабинет";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>@ViewData["UserEmail"]</p>
+
+<p>@Html.ActionLink("Выход", "Logout", "Account")</p>

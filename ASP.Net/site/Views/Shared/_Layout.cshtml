@@ -1,0 +1,98 @@
+﻿<html>
+<head>
+    <title>@ViewData["title"]</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href='~/css/Titillium_font.css' rel='stylesheet' type='text/css'>
+    <link href='~/css/Roboto_font.css' rel='stylesheet' type='text/css'>
+    <link href='~/css/Raleway_font.css' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+
+    <script src="~/js/html5shiv.min.js"></script>
+    <script src="~/js/respond.min.js"></script>
+
+    <!-- Latest jQuery form server -->
+    <script src="~/js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS form CDN -->
+    <script src="~/js/bootstrap.min.js"></script>
+
+    <!-- jQuery sticky menu -->
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.sticky.js"></script>
+
+    <!-- jQuery easing -->
+    <script src="~/js/jquery.easing.1.3.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="~/js/main.js"></script>
+</head>
+<body>
+    <!-- шапка -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="user-menu">
+                        <ul>
+                            <li><i class="fa fa-user"></i>@Html.ActionLink("Аккаунт", "HalfCheck", "Account")</li>
+                            <li><i class="fa fa-shopping-cart"></i>@Html.ActionLink("Аккаунт", "Auth", "Account")</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End header area -->
+
+    <div class="site-branding-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="logo">
+                        <h1><a href="home">AeroDream</a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End site branding area -->
+
+    <div class="mainmenu-area">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Главная", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Каталог", "Catalog", "Catalog")</li>
+                        <li>@Html.ActionLink("Корзина", "Cart", "Catalog")</li>
+                        <li>@Html.ActionLink("Оформить заказ", "Checkout", "Catalog")</li>
+                        <li>@Html.ActionLink("Контакты", "Contacts", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End mainmenu area -->
+    @RenderBody()
+    <!-- футер -->
+</body>
+</html>
