@@ -1,0 +1,6 @@
+C:\lessons\testers\MyCalcLib\bin\Debug\MyCalcLib.dll
+C:\lessons\testers\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\lessons\testers\MyCalcLib\obj\Debug\MyCalcLib.csprojAssemblyReference.cache
+C:\lessons\testers\MyCalcLib\obj\Debug\MyCalcLib.csproj.CoreCompileInputs.cache
+C:\lessons\testers\MyCalcLib\obj\Debug\MyCalcLib.dll
+C:\lessons\testers\MyCalcLib\obj\Debug\MyCalcLib.pdb

@@ -1,0 +1,7 @@
+C:\lessons\testers\driven\UserData\bin\Debug\data.xml
+C:\lessons\testers\driven\UserData\bin\Debug\UserData.dll
+C:\lessons\testers\driven\UserData\bin\Debug\UserData.pdb
+C:\lessons\testers\driven\UserData\obj\Debug\UserData.csprojAssemblyReference.cache
+C:\lessons\testers\driven\UserData\obj\Debug\UserData.csproj.CoreCompileInputs.cache
+C:\lessons\testers\driven\UserData\obj\Debug\UserData.dll
+C:\lessons\testers\driven\UserData\obj\Debug\UserData.pdb
