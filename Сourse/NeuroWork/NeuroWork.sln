@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroWork", "NeuroWork.csproj", "{2C1CA954-B8D6-4CC4-AC0A-BF1CF79C4601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C1CA954-B8D6-4CC4-AC0A-BF1CF79C4601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1CA954-B8D6-4CC4-AC0A-BF1CF79C4601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1CA954-B8D6-4CC4-AC0A-BF1CF79C4601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1CA954-B8D6-4CC4-AC0A-BF1CF79C4601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2783B41-940E-40DD-82BA-D8A28B80458D}
+	EndGlobalSection
+EndGlobal
