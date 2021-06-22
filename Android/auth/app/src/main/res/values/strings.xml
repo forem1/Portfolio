@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">auth</string>
+    <string name="signin">вход</string>
+    <string name="register">регистрация</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+
+    <string name="LoginReg">Логин</string>
+    <string name="PasswordReg">Пароль</string>
+    <string name="RePasswordReg">Повторите пароль</string>
+    <string name="EmailReg">Email</string>
+    <string name="PhoneReg">Телефон</string>
+    <string name="ButtonReg">Зарегистрироваться</string>
+</resources>

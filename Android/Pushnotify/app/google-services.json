@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248138603880",
+    "project_id": "push-7c19f",
+    "storage_bucket": "push-7c19f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248138603880:android:8b19094a95dfb43c74cadd",
+        "android_client_info": {
+          "package_name": "com.dryupin.pushnotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248138603880-qlgucqrte7eqhqpg2705kvv9kcout4tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBekHgRdGv-1ouftOaG6hAN0z2qcMXa-6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248138603880-qlgucqrte7eqhqpg2705kvv9kcout4tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

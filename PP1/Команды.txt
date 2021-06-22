@@ -1,0 +1,29 @@
+//к компу
+MS:0 - main status  общий статус системы
+0 - idle or not connected
+1 - working
+2 - emergency
+
+MPC:0.0 - main power current общая нагрузка
+амперы
+
+MPV:0.0 - main power voltage общий вольтаж
+вольты
+
+MMD:0 - main move direction направление движения
+0 - назад
+1 - вперед
+
+MMR:0 - main move rudder угол поворота руля (возможно)
+градусы
+
+0 0.0 0.0 0 0;
+
+//к ардуино
+F - Вперед
+B - Назад
+L - Лево
+R - Право
+S - Останов
+D - Останов руля
+Esc - Экстренный режим

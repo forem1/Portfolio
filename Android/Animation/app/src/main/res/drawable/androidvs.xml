@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:duration="130" android:drawable="@mipmap/a0" />
+    <item android:duration="130" android:drawable="@mipmap/a1" />
+    <item android:duration="130" android:drawable="@mipmap/a2" />
+    <item android:duration="130" android:drawable="@mipmap/a3" />
+    <item android:duration="130" android:drawable="@mipmap/a4" />
+    <item android:duration="130" android:drawable="@mipmap/a5" />
+    <item android:duration="130" android:drawable="@mipmap/a6" />
+    <item android:duration="130" android:drawable="@mipmap/a7" />
+    <item android:duration="130" android:drawable="@mipmap/a8" />
+    <item android:duration="130" android:drawable="@mipmap/a9" />
+    <item android:duration="130" android:drawable="@mipmap/a10" />
+    <item android:duration="130" android:drawable="@mipmap/a11" />
+    <item android:duration="130" android:drawable="@mipmap/a12" />
+    <item android:duration="130" android:drawable="@mipmap/a13" />
+    <item android:duration="130" android:drawable="@mipmap/a14" />
+    <item android:duration="130" android:drawable="@mipmap/a15" />
+    <item android:duration="130" android:drawable="@mipmap/a16" />
+    <item android:duration="130" android:drawable="@mipmap/a17" />
+    <item android:duration="130" android:drawable="@mipmap/a18" />
+    <item android:duration="130" android:drawable="@mipmap/a19" />
+    <item android:duration="130" android:drawable="@mipmap/a20" />
+    <item android:duration="130" android:drawable="@mipmap/a21" />
+    <item android:duration="130" android:drawable="@mipmap/a22" />
+    <item android:duration="130" android:drawable="@mipmap/a23" />
+    <item android:duration="130" android:drawable="@mipmap/a24" />
+    <item android:duration="130" android:drawable="@mipmap/a25" />
+    <item android:duration="130" android:drawable="@mipmap/a26" />
+    <item android:duration="130" android:drawable="@mipmap/a27" />
+    <item android:duration="130" android:drawable="@mipmap/a28" />
+    <item android:duration="130" android:drawable="@mipmap/a29" />
+    <item android:duration="130" android:drawable="@mipmap/a30" />
+    <item android:duration="130" android:drawable="@mipmap/a31" />
+    <item android:duration="130" android:drawable="@mipmap/a32" />
+    <item android:duration="130" android:drawable="@mipmap/a33" />
+    <item android:duration="130" android:drawable="@mipmap/a34" />
+    <item android:duration="130" android:drawable="@mipmap/a35" />
+
+
+</animation-list>
