@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+</head>
+<body>
+<form action="Get" method="get">
+    <label>Get запрос</label><br>
+    <input type="number" name="number" th:value="${number}"><br>
+    <label for="action">Выберите знак:</label>
+    <select name="action" id="action">
+        <option value="umn">*</option>
+        <option value="del">/</option>
+        <option value="plus">+</option>
+        <option value="minus">-</option>
+    </select><br>
+    <input type="number" name="number2" th:value="${number2}"><br>
+    <label>Результат:</label> <label th:text="${result}"></label><br>
+    <button type="submit">Решить</button><br>
+</form>
+<form action="Post" method="post">
+    <label>Post запрос</label><br>
+    <input type="number" name="number3" th:value="${number3}"><br>
+    <label for="action2">Выберите знак:</label>
+    <select name="action2" id="action2">
+        <option value="umn">*</option>
+        <option value="del">/</option>
+        <option value="plus">+</option>
+        <option value="minus">-</option>
+    </select><br>
+    <input type="number" name="number12" th:value="${number12}"><br>
+    <label>Результат:</label> <label th:text="${result2}"></label><br>
+    <button type="submit">Решить</button><br>
+</form>
+</body>
+</html>

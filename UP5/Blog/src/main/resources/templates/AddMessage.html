@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<form action="/blog/AddMessage" th:object="${message}" method="post">
+    <input style="display:none;" type="text" name="action" value="AddMessage">
+
+    <div class="form-group">
+        <label for="AddMessageTo">Кому</label>
+        <input type="text" name="toMes" th:field="*{toMes}" class="form-control" id="AddMessageTo" placeholder="Введите получателя">
+        <div th:if="${#fields.hasErrors('toMes')}" th:errors="*{toMes}" style="color: red;"></div>
+    </div>
+    <div class="form-group">
+        <label for="AddMessageFrom">От кого</label>
+        <input type="text" name="fromMes" th:field="*{fromMes}" class="form-control" id="AddMessageFrom" placeholder="Введите отправителя">
+        <div th:if="${#fields.hasErrors('fromMes')}" th:errors="*{fromMes}" style="color: red;"></div>
+    </div>
+    <div class="form-group">
+        <label for="AddMessageText">Текст</label>
+        <input type="text" name="textMes" th:field="*{textMes}" class="form-control" id="AddMessageText" placeholder="Введите текст">
+        <div th:if="${#fields.hasErrors('textMes')}" th:errors="*{textMes}" style="color: red;"></div>
+    </div>
+    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+</form>
+</body>
+</html>

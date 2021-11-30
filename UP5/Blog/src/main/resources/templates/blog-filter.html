@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <form method="post" action="/blog/filter/result">
+        <div class="form-group">
+            <label for="search">Запрос</label>
+            <input type="text" name="search" class="form-control" id="search" placeholder="Введите запрос">
+        </div>
+        <label style="font-weight: normal; padding-right: 10px;">Категория</label>
+        <select style="" name="where" class="form-control">
+            <option value="Post">Посты</option>
+            <option value="Messages">Сообщения</option>
+            <option value="Files">Файлы</option>
+            <option value="Users">Пользователи</option>
+            <option value="Mood">Настроение</option>
+        </select>
+        <button class="btn btn-primary" type="submit">Найти</button>
+    </form>
+
+    <div th:each="el: ${post}">
+        <h3 th:text="${el. title}"></h3>
+        <p th:text="${el. text}"></p>
+    </div>
+
+    <div th:each="el: ${message}">
+        <h3 th:text="${el. toMes}"></h3>
+        <h3 th:text="${el. fromMes}"></h3>
+        <p th:text="${el. textMes}"></p>
+    </div>
+
+    <div th:each="el: ${files}">
+        <h3 th:text="${el. name}"></h3>
+        <p th:text="${el. link}"></p>
+    </div>
+    <div th:each="el: ${users}">
+        <h3 th:text="${el. login}"></h3>
+        <p th:text="${el. password}"></p>
+    </div>
+    <div th:each="el: ${mood}">
+        <h3 th:text="${el. date}"></h3>
+        <p th:text="${el. mood}"></p>
+    </div>
+</body>
+</html>

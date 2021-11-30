@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<form action="/blog/AddMood" th:object="${mood}" method="post">
+    <input style="display:none;" type="text" name="action" value="AddMood">
+
+    <div class="form-group">
+        <label for="AddMoodDate">Дата</label>
+        <input type="date" name="date" th:field="*{date}" class="form-control" id="AddMoodDate" placeholder="Введите">
+        <div th:if="${#fields.hasErrors('date')}" th:errors="*{date}" style="color: red;"></div>
+    </div>
+    <div class="form-group">
+        <label for="AddMoodMood">Настроение</label>
+        <input type="text" name="mood" th:field="*{mood}" class="form-control-file" id="AddMoodMood" placeholder="Введите настроение">
+        <div th:if="${#fields.hasErrors('mood')}" th:errors="*{mood}" style="color: red;"></div>
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+</form>
+</body>
+</html>

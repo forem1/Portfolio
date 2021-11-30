@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<form action="/blog/AddFile" method="post" th:object="${files}">
+    <input style="display:none;" type="text" name="action" value="AddFile">
+
+    <div class="form-group">
+        <label for="AddFileName">Имя</label>
+        <input type="text" name="name" th:field="*{name}" class="form-control" id="AddFileName" placeholder="Введите имя файла">
+        <div th:if="${#fields.hasErrors('name')}" th:errors="*{name}" style="color: red;"></div>
+    </div>
+    <div class="form-group">
+        <label for="AddFileLink">Путь</label>
+        <input type="file" name="link" class="form-control-file" id="AddFileLink" placeholder="Введите отправителя">
+    </div>
+    <div th:if="${#fields.hasErrors('global')}">
+        <small th:each="err : ${#fields.errors('global')}" th:text="${err}" style="color: red;"></small>
+    </div>
+    <button type="submit" class="btn btn-primary">Загрузить файл</button>
+</form>
+</body>
+</html>

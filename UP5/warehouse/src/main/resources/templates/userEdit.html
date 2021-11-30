@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Редактирование пользователей</title>
+</head>
+<body>
+<form th:action="${'/admin'}" method="post">
+    <div th:each="el: ${user}">
+        <input type="hidden" th:value="${el.id}" name="userId">
+        <input type="text" th:value="${el.username}" name="username">
+    </div>
+    <div th:each="role: ${roles}">
+        <div th:each="el: ${user}">
+            <input type="checkbox" th:id="${role}" th:name="${'roles[]'}" th:value="${role}" th:checked="${#lists.contains(el.roles, role)}"/>
+            <label th:text="${role}"></label>
+        </div>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+    <h1 style="text-align: center;">Блог</h1>
+    <a class="btn btn-primary" href="/blog/blog-filter">Поиск</a>
+    <div class="tabs">
+        <input checked id="tab-btn-1" name="tab-btn" type="radio" value=""><label for="tab-btn-1">Таблицы</label> <input id="tab-btn-2" name="tab-btn" type="radio" value=""> <label for="tab-btn-2">Добавить пост</label><input id="tab-btn-3" name="tab-btn" type="radio" value=""> <label for="tab-btn-3">Написать сообщение</label><input id="tab-btn-4" name="tab-btn" type="radio" value=""> <label for="tab-btn-4">Загрузить файл</label><input id="tab-btn-5" name="tab-btn" type="radio" value=""> <label for="tab-btn-5">Регистрация</label><input id="tab-btn-6" name="tab-btn" type="radio" value=""> <label for="tab-btn-6">Добавить настроение</label>
+        <div id="content-1" style="position: absolute;">
+            <table border="1" class="table">
+                <caption>Посты</caption>
+                <tr>
+                    <th>Заголовок</th>
+                    <th>Анонс</th>
+                    <th>Ссылка</th>
+                    <th>Редактировать</th>
+                    <th>Удалить</th>
+                </tr>
+                <tr th:each="el : ${posts}"><td th:text="${el.title}"></td><td th:text="${el.anons}"></td><td><a th:href="'/blog/'+ ${el.id}">Подробнее</a></td><td><a th:href="'/blog/'+ ${el.id}+'/edit'">Редактировать</a></td><td><a th:href="'/blog/'+ ${el.id}+'/remove/'+${'Post'}">Удалить</a></td></tr>
+            </table>
+
+            <table border="1" class="table">
+                <caption>Сообщения</caption>
+                <tr>
+                    <th>Кому</th>
+                    <th>От кого</th>
+                    <th>Текст</th>
+                    <th>Удалить</th>
+                </tr>
+                <tr th:each="el : ${messages}"><td th:text="${el.toMes}"></td><td th:text="${el.fromMes}"></td><td th:text="${el.textMes}"></td><td><a th:href="'/blog/'+ ${el.id}+'/remove/'+${'Message'}">Удалить</a></td></tr>
+            </table>
+
+            <table border="1" class="table">
+                <caption>Файлы</caption>
+                <tr>
+                    <th>Имя</th>
+                    <th>Путь</th>
+                    <th>Редактировать</th>
+                    <th>Удалить</th>
+                </tr>
+                <tr th:each="el : ${files}"><td th:text="${el.name}"></td><td th:text="${el.link}"></td><td><a th:href="'/blog/'+ ${el.id}+'/file-edit'">Редактировать</a></td><td><a th:href="'/blog/'+ ${el.id}+'/remove/'+${'File'}">Удалить</a></td></tr>
+            </table>
+
+            <table border="1" class="table">
+                <caption>Пользователи</caption>
+                <tr>
+                    <th>Логин</th>
+                    <th>Подробнее</th>
+                    <th>Удалить</th>
+                </tr>
+                <tr th:each="el : ${register}"><td th:text="${el.login}"></td><td><a th:href="'/blog/users/'+ ${el.id}">Подробнее</a></td><td><a th:href="'/blog/'+ ${el.id}+'/remove/'+${'User'}">Удалить</a></td></tr>
+            </table>
+
+            <table border="1" class="table">
+                <caption>Настроение</caption>
+                <tr>
+                    <th>Дата</th>
+                    <th>Настроение</th>
+                    <th>Удалить</th>
+                </tr>
+                <tr th:each="el : ${mood}"><td th:text="${el.date}"></td><td th:text="${el.mood}"></td><td><a th:href="'/blog/'+ ${el.id}+'/remove/'+${'Mood'}">Удалить</a></td></tr>
+            </table>
+        </div>
+        <div id="content-2">
+            <iframe src="blog/AddPost" height="100%" width="100%"></iframe>
+        </div>
+        <div id="content-3">
+            <iframe src="blog/AddMessage" height="100%" width="100%"></iframe>
+        </div>
+        <div id="content-4">
+            <iframe src="blog/AddFile" height="100%" width="100%"></iframe>
+        </div>
+        <div id="content-5">
+            <iframe src="blog/AddUser" height="100%" width="100%"></iframe>
+        </div>
+        <div id="content-6">
+            <iframe src="blog/AddMood" height="100%" width="100%"></iframe>
+        </div>
+    </div>
+</body>
+</html>

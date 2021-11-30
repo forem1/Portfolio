@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Радактировать файл</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<h1>Редактирование</h1>
+<div th:each="el : ${file}">
+    <form method="post">
+        <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" name="name" class="form-control" id="name" th:value="${el.name}" placeholder="Введите имя файла">
+        </div>
+        <div class="form-group">
+            <label for="link">Файл</label>
+            <input type="text" class="form-control" id="link" th:value="${el.link}" disabled>
+        </div>
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </form>
+</div>
+</body>
+</html>
