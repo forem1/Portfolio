@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<h5>Теги</h5>
+{% for tag in tags %}
+<div class="alert alert-primary" role="alert">
+  {{tag.name}}
+</div>
+{% endfor %}
+{% endblock  %}  

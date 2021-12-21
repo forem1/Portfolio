@@ -1,0 +1,14 @@
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\MicroElectronsApi.exe
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\MicroElectronsApi.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\MicroElectronsApi.runtimeconfig.json
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\MicroElectronsApi.pdb
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\MySqlConnector.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andrey\Desktop\MicroElectronsApi\MicroElectronsApi\obj\Release\net5.0\PubTmp\Out\MicroElectronsApi.deps.json

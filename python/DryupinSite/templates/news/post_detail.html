@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h3>{{post.title}}</h3>
+<p>{{post.text}}</p>
+<p class="card-text"><small class="text-muted">{{post.author}}</small></p>
+<p class="card-text"><small class="text-muted">{{post.pub_date}}</small></p>
+<p class="card-text"><small class="text-muted">
+  Теги: 
+  {% for tag in post.fk_tag.all %}
+    {{tag.name}},
+  {% endfor %}  
+</small></p>
+<h5>Комментарии</h5>
+{% for comment in post.comment_set.all %}
+<div class="card">
+  <div class="card-header">
+    {{comment.pub_date}}
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>{{comment.text}}</p>
+      <footer class="blockquote-footer"
+      ><cite title="Source Title">{{comment.author}}</cite>
+      </footer>
+    </blockquote>
+  </div>
+</div>
+{% endfor %}
+{% endblock  %}        

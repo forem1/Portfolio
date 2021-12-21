@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Новостной сайт</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="/news" class="nav-link active" aria-current="page">Новости</a></li>
+          <li class="nav-item"><a href="/news/tags" class="nav-link">Теги</a></li>
+
+            <li class="nav-item"><a href="{% url 'django_registration_register' %}" class="nav-link">Регистрация</a></li>
+        </ul>
+    </header>
+    <section class="py-5 container">
+        {% block content %}
+        <p>
+            Идёт работа...
+        </p>
+        {% endblock content %}
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html> 

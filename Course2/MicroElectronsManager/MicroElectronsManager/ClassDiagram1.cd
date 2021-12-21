@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MicroElectronsManager.Logics.ApiBuilder" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Logics\ApiBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Logics.ResponseMessageHandler" Collapsed="true">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logics\ResponseMessageHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.ComeJournalData" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAEAgCAAQAA=</HashCode>
+      <FileName>Models\ComeJournalData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.CounterpartyData" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAACCAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CounterpartyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.DismissData" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAAAAAAAAAAAAACAAAAAABAAAAAAACAAg=</HashCode>
+      <FileName>Models\DismissData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.HolidayData" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACGAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAACAAg=</HashCode>
+      <FileName>Models\HolidayData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.LaborData" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAAAAAAAAAAAAACAAAAAABAAAAAAACAAg=</HashCode>
+      <FileName>Models\LaborData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.ManufData" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAACAAEAAAAAAAAAAAAAAAAAAgAAABAAAAAgAAKAAA=</HashCode>
+      <FileName>Models\ManufData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.ProductData" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAAAQAAAAAAAAAAAAQAACAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\ProductData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.ResponseMessageData" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\ResponseMessageData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.SupplyData" Collapsed="true">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAgAAAAQAAAEBAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\SupplyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.UserData" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAEAAAAAAAAAAAAAAAACgAIAAACAAAQAAACAAg=</HashCode>
+      <FileName>Models\UserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.Models.VisitorData" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAAAAIIAAAABAAAAAAAAAAAAAAoAAAECAAEAA=</HashCode>
+      <FileName>Models\VisitorData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.AddCounterpartyWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAAAAAAAAACAAAAgAEAAAAA=</HashCode>
+      <FileName>AddCounterpartyWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.AddEmployeeWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAgAAAAAAACAAAAgAEAAAAA=</HashCode>
+      <FileName>AddEmployeeWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.AddHolidayWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAgAAAAAAACAAAAgAEAAAQA=</HashCode>
+      <FileName>AddHolidayWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.AddProductWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAgAAAAAAACAAAAgAEAAAAA=</HashCode>
+      <FileName>AddProductWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.AddSupplyWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIQAAAIAAEAgAIAAAAQCgAAAgDEAAAAA=</HashCode>
+      <FileName>AddSupplyWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.AddTaskWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAgAAAAAAQCAAAAgAEAAAAA=</HashCode>
+      <FileName>AddTaskWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.AddVisitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAgAAAAAAACAAAAgAEAAAQA=</HashCode>
+      <FileName>AddVisitor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.App" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroElectronsManager.BookkeepWindow" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAwAAAAAQA=</HashCode>
+      <FileName>BookkeepWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.519" />
+  </Class>
+  <Class Name="MicroElectronsManager.ChangeStorageMethodWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAgAAQAAAACAABAgAEAAAAA=</HashCode>
+      <FileName>ChangeStorageMethodWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.HRmanagerWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAQAQAAAAAAAAAAgAACgAIAAAAICABMAwAAABQQI=</HashCode>
+      <FileName>HRmanagerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.LoginWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.ManufactureWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAgAgAAAAAAACAAAAwAQAAAQI=</HashCode>
+      <FileName>ManufactureWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.StorekeepWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgEAAAAAACAAAA0AAAAgQA=</HashCode>
+      <FileName>StorekeepWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.SupplyMoreInfoWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>SupplyMoreInfoWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.SupplyWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAhAAAgAAECAAAAwAAAAAQI=</HashCode>
+      <FileName>SupplyWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroElectronsManager.VisitorWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAABAAAAAAAAAAAgCAAAAAAKAAAAwAAAgAQI=</HashCode>
+      <FileName>VisitorWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
