@@ -1,3 +1,3 @@
-# portfolio
+# Portfolio
 
-my programs when I was studying 
+My programs written during my studies 
