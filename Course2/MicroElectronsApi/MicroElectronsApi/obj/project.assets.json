@@ -919,11 +919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrey\\Desktop\\курсач\\MicroElectronsApi\\MicroElectronsApi\\MicroElectronsApi.csproj",
+      "projectUniqueName": "C:\\Users\\Andrey\\Documents\\GitHub\\portfolio\\Course2\\MicroElectronsApi\\MicroElectronsApi\\MicroElectronsApi.csproj",
       "projectName": "MicroElectronsApi",
-      "projectPath": "C:\\Users\\Andrey\\Desktop\\курсач\\MicroElectronsApi\\MicroElectronsApi\\MicroElectronsApi.csproj",
+      "projectPath": "C:\\Users\\Andrey\\Documents\\GitHub\\portfolio\\Course2\\MicroElectronsApi\\MicroElectronsApi\\MicroElectronsApi.csproj",
       "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrey\\Desktop\\курсач\\MicroElectronsApi\\MicroElectronsApi\\obj\\",
+      "outputPath": "C:\\Users\\Andrey\\Documents\\GitHub\\portfolio\\Course2\\MicroElectronsApi\\MicroElectronsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
