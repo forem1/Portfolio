@@ -1,0 +1,131 @@
+﻿<Window x:Class="PlatformDesktop.TelemetryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:chart="clr-namespace:Syncfusion.UI.Xaml.Charts;assembly=Syncfusion.SfChart.WPF"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlatformDesktop"
+        mc:Ignorable="d"
+        Title="TelemetryWindow" Height="850" Width="1480" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <local:TelemetryViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250">
+            </RowDefinition>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="*"/>
+           
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="620"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <lvc:CartesianChart Series="{Binding Series}" LegendLocation="Left">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="X" LabelFormatter="{Binding FormatterX}" Labels="{Binding BarLabels}"></lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Y" LabelFormatter="{Binding Formatter}"></lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+        <StackPanel Margin="4,4,0,0" Grid.Row="1" Orientation="Horizontal" >
+            <Label Content="Гиросокп" FontSize="15" Margin="4,-4,5,0" />
+            <RadioButton Content="ON" IsChecked="{Binding OnTelemetry, Mode=TwoWay}"  HorizontalAlignment="Left"  Margin="4" VerticalAlignment="Top"/>
+            <RadioButton Content="OFF" HorizontalAlignment="Left" Margin="4"   VerticalAlignment="Top"/>
+            
+        </StackPanel>
+        <StackPanel Margin="4,4,0,0" Grid.Column="1" Orientation="Vertical">
+            <CheckBox Content="X" IsChecked="{Binding OnX, Mode=TwoWay}"  Margin="4" />
+            <CheckBox Content="Y" IsChecked="{Binding OnY, Mode=TwoWay}" Margin="4" />
+            <CheckBox Content="Z" IsChecked="{Binding OnZ, Mode=TwoWay}" Margin="4" />
+            
+        </StackPanel>
+
+        <lvc:CartesianChart Series="{Binding SeriesA}" Grid.Column="3"  LegendLocation="Left" Margin="20,0,-20,0">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="X" LabelFormatter="{Binding FormatterXA}" Labels="{Binding BarLabelsа}"></lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Y" LabelFormatter="{Binding FormatterA}"></lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+        <StackPanel Margin="4,4,0,0" Grid.Row="1"  Grid.Column="3" Orientation="Horizontal" >
+            <Label Content="Акселерометр" FontSize="15" Margin="4,-4,5,0" />
+            <RadioButton Content="ON" IsChecked="{Binding OnTelemetryA, Mode=TwoWay}"  HorizontalAlignment="Left"  Margin="4" VerticalAlignment="Top"/>
+            <RadioButton Content="OFF" HorizontalAlignment="Left" Margin="4"   VerticalAlignment="Top"/>
+        </StackPanel>
+        <StackPanel Margin="50,4,4,4" Grid.Column="2" Orientation="Vertical">
+            <CheckBox Content="X" IsChecked="{Binding OnXa, Mode=TwoWay}"  Margin="4" />
+            <CheckBox Content="Y" IsChecked="{Binding OnYa, Mode=TwoWay}" Margin="4"  />
+            <CheckBox Content="Z" IsChecked="{Binding OnZa, Mode=TwoWay}" Margin="4" />
+        </StackPanel>
+
+        <lvc:CartesianChart Series="{Binding SeriesM}" Grid.Column="0" Grid.Row="2"  LegendLocation="Left">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="X" LabelFormatter="{Binding FormatterXM}" Labels="{Binding BarLabelsm}"></lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Y" LabelFormatter="{Binding FormatterM}"></lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+        <StackPanel Margin="4,4,0,0" Grid.Row="3"  Grid.Column="0" Orientation="Horizontal" >
+            <Label Content="Магнитометр" FontSize="15" Margin="4,-4,5,0" />
+            <RadioButton Content="ON" IsChecked="{Binding OnTelemetryM, Mode=TwoWay}"  HorizontalAlignment="Left"  Margin="4" VerticalAlignment="Top"/>
+            <RadioButton Content="OFF" HorizontalAlignment="Left" Margin="4"   VerticalAlignment="Top"/>
+        </StackPanel>
+        <StackPanel Margin="4,4,4,4" Grid.Column="1" Grid.Row="2" Orientation="Vertical">
+            <CheckBox Content="X" IsChecked="{Binding OnXm, Mode=TwoWay}"  Margin="4" />
+            <CheckBox Content="Y" IsChecked="{Binding OnYm, Mode=TwoWay}" Margin="4"  />
+            <CheckBox Content="Z" IsChecked="{Binding OnZm, Mode=TwoWay}" Margin="4" />
+        </StackPanel>
+        
+        
+        <lvc:CartesianChart Series="{Binding SeriesCurr}" Grid.Column="3" Grid.Row="2"  LegendLocation="Left">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="X" LabelFormatter="{Binding FormatterCurrX}" Labels="{Binding BarLabelscurr}"></lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Y" LabelFormatter="{Binding FormatterCurr}"></lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+        <StackPanel Margin="4,4,0,0" Grid.Row="3"  Grid.Column="3" Orientation="Horizontal" >
+            <Label Content="Ток" FontSize="15" Margin="4,-4,5,0" />
+            <RadioButton Content="ON" IsChecked="{Binding OnTelemetryCurr, Mode=TwoWay}"  HorizontalAlignment="Left"  Margin="4" VerticalAlignment="Top"/>
+            <RadioButton Content="OFF" HorizontalAlignment="Left" Margin="4"   VerticalAlignment="Top"/>
+        </StackPanel>
+        <StackPanel Margin="30,4,4,4" Grid.Column="2" Grid.Row="2" Orientation="Vertical">
+            <CheckBox Content="Left" IsChecked="{Binding OnLcurr, Mode=TwoWay}"  Margin="4" />
+            <CheckBox Content="Right" IsChecked="{Binding OnRcurr, Mode=TwoWay}" Margin="4"  />
+            
+        </StackPanel>
+
+        <lvc:CartesianChart Series="{Binding SeriesV}" Grid.Column="0" Grid.Row="4"  LegendLocation="Left">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="X" LabelFormatter="{Binding FormatterXV}" Labels="{Binding BarLabelsv}"></lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Y" LabelFormatter="{Binding FormatterV}"></lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+        <StackPanel Margin="4,4,0,0" Grid.Row="5"  Grid.Column="0" Orientation="Horizontal" >
+            <Label Content="Батарея" FontSize="15" Margin="4,-4,5,0" />
+            <RadioButton Content="ON" IsChecked="{Binding OnTelemetryV, Mode=TwoWay}"  HorizontalAlignment="Left"  Margin="4" VerticalAlignment="Top"/>
+            <RadioButton Content="OFF" HorizontalAlignment="Left" Margin="4"   VerticalAlignment="Top"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

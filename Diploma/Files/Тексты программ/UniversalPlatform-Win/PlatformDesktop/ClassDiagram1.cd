@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlatformDesktop.TelemetryViewModel">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>bCi2QgOIAoAByAAA4AIAEABAgkAkgATBaEFBEaAAgIE=</HashCode>
+      <FileName>TelemetryViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlatformDesktop.StuctureDataClass">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAAgIKBAABCAIAgAAAABAAgABACAcAAgAHICAAo=</HashCode>
+      <FileName>StuctureDataClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformDesktop.SettingsWindow">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SettingsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlatformDesktop.MainWindow">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIUIAJAEEAUJAUgAICAAAEsAiBAiKAlIAIgAgAAAAQE=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlatformDesktop.MapControl">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>MapControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformDesktop.TelemetryWindow">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelemetryWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlatformDesktop.Models.Point">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="PlatformDesktop.Models.Point.SetXEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Point.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="PlatformDesktop.Models.Point.SetXYEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Point.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="PlatformDesktop.Models.Point.SetYEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Point.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQgAgYAgAAAgAAAAAAAACAAAAAAAAAAYAA=</HashCode>
+      <FileName>Models\Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFMap.Models.MapLine">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MapLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9.16" />
+</ClassDiagram>

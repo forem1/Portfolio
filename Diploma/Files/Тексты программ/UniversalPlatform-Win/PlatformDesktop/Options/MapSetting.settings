@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WPFMap.Options" GeneratedClassName="MapSetting">
+  <Profiles />
+  <Settings>
+    <Setting Name="Bearing" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CanDragMap" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MaxZoom" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="MinZoom" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Zoom" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="ShowTileGridLines" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowCenter" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MapPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">map.gmdb</Value>
+    </Setting>
+    <Setting Name="DefaultX" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">55.751244</Value>
+    </Setting>
+    <Setting Name="DefaultY" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">37.618423</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

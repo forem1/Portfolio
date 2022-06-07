@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arrow.png" />
+    <None Remove="arrowdown.png" />
+    <None Remove="arrowleft.png" />
+    <None Remove="arrowrigth.png" />
+    <None Remove="stop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CalcBinding" Version="2.5.2" />
+    <PackageReference Include="GMap.NET.Core" Version="2.0.2" />
+    <PackageReference Include="GMap.NET.WinPresentation" Version="2.0.2" />
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+    <PackageReference Include="SharpKml.Core" Version="5.2.0" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="19.4.0.52" />
+    <PackageReference Include="System.IO.Ports" Version="5.0.1" />
+    <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\arrow.png" />
+    <Resource Include="Images\arrowdown.png" />
+    <Resource Include="Images\arrowleft.png" />
+    <Resource Include="Images\arrowrigth.png" />
+    <Resource Include="Images\stop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Options\MapSetting.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MapSetting.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Options\TelemetrySetting.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TelemetrySetting.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Options\MapSetting.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MapSetting.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Options\TelemetrySetting.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>TelemetrySetting.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.VCRTForwarders.140" Version="1.0.7" />
+  </ItemGroup>
+
+</Project>

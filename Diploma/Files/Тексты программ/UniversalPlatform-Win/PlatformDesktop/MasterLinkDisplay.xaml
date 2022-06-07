@@ -1,0 +1,93 @@
+﻿<Window x:Class="PlatformDesktop.MasterLinkDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlatformDesktop"
+        mc:Ignorable="d"
+        Title="MasterLinkDisplay" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+
+            <ColumnDefinition Width="300*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+        <CheckBox x:Name="check1_128"  Grid.Column="1" HorizontalAlignment="Left" Margin="52,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check1_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check1_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check1_16" Grid.Column="1" HorizontalAlignment="Left" Margin="115,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check1_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check1_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check1_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check1_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check2_128" Grid.Column="1" HorizontalAlignment="Left" Margin="52,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check2_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check2_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check2_16" Grid.Column="1" HorizontalAlignment="Left" Margin="115,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check2_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check2_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check2_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check2_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,30,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <TextBox x:Name="Ticker" Grid.Column="1" HorizontalAlignment="Left" Margin="52,46,0,0" Grid.Row="3" Text="Текст сообщение" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Button Content="Send" Grid.Column="1" HorizontalAlignment="Left" Margin="184,46,0,0" Grid.Row="3" Height="26" VerticalAlignment="Top" Click="Button_Click" Width="53"/>
+        <CheckBox x:Name="check3_128" Grid.Column="1" HorizontalAlignment="Left" Margin="52,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check3_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check3_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check3_16" Grid.Column="1" HorizontalAlignment="Left" Margin="115,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check3_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check3_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check3_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check3_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,50,0,0" Grid.Row="1" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_128" Grid.Column="1" HorizontalAlignment="Left" Margin="52,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_16" Grid.Column="1" HorizontalAlignment="Left" Margin="115,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check4_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,0,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_128" Grid.Column="1" HorizontalAlignment="Left" Margin="52,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_16" Grid.Column="1" HorizontalAlignment="Left" Margin="115,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check5_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,21,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_128" Grid.Column="1" HorizontalAlignment="Left" Margin="52,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_16" Grid.Column="1" HorizontalAlignment="Left" Margin="115,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check6_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,41,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check7_128" Grid.Column="1" HorizontalAlignment="Left" Margin="52,64,0,0" Grid.Row="2" VerticalAlignment="Top"  Click="check_Click" Height="13" Grid.RowSpan="2" />
+        <CheckBox x:Name="check7_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,64,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" Height="13" Grid.RowSpan="2"/>
+        <CheckBox x:Name="check7_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,64,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" Height="13" Grid.RowSpan="2"/>
+        <CheckBox x:Name="check7_16" Grid.Column="1" HorizontalAlignment="Left" Margin="115,64,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" Height="13" Grid.RowSpan="2"/>
+        <CheckBox x:Name="check7_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,64,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" Height="13" Grid.RowSpan="2"/>
+        <CheckBox x:Name="check7_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,64,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" Height="13" Grid.RowSpan="2"/>
+        <CheckBox x:Name="check7_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,64,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" Height="13" Grid.RowSpan="2"/>
+        <CheckBox x:Name="check7_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,64,0,0" Grid.Row="2" VerticalAlignment="Top" Click="check_Click" Height="13" Grid.RowSpan="2"/>
+        <CheckBox x:Name="check8_128" Grid.Column="1" HorizontalAlignment="Left" Margin="52,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check8_64" Grid.Column="1" HorizontalAlignment="Left" Margin="73,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check8_32" Grid.Column="1" HorizontalAlignment="Left" Margin="94,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check8_16"  Grid.Column="1" HorizontalAlignment="Left" Margin="115,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check8_8" Grid.Column="1" HorizontalAlignment="Left" Margin="135,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check8_4" Grid.Column="1" HorizontalAlignment="Left" Margin="156,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click"/>
+        <CheckBox x:Name="check8_2" Grid.Column="1" HorizontalAlignment="Left" Margin="176,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click" />
+        <CheckBox x:Name="check8_1" Grid.Column="1" HorizontalAlignment="Left" Margin="197,10,0,0" Grid.Row="3" VerticalAlignment="Top" Click="check_Click" />
+
+
+    </Grid>
+</Window>

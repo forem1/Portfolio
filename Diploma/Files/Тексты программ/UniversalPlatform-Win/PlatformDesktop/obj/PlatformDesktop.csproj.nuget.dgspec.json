@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Andrey\\Desktop\\UniversalPlatform-Win\\PlatformDesktop\\PlatformDesktop.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Andrey\\Desktop\\UniversalPlatform-Win\\PlatformDesktop\\PlatformDesktop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andrey\\Desktop\\UniversalPlatform-Win\\PlatformDesktop\\PlatformDesktop.csproj",
+        "projectName": "PlatformDesktop",
+        "projectPath": "C:\\Users\\Andrey\\Desktop\\UniversalPlatform-Win\\PlatformDesktop\\PlatformDesktop.csproj",
+        "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrey\\Desktop\\UniversalPlatform-Win\\PlatformDesktop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "CalcBinding": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "GMap.NET.Core": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "GMap.NET.WinPresentation": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf.Core": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "SharpKml.Core": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Syncfusion.SfChart.WPF": {
+              "target": "Package",
+              "version": "[19.4.0.52, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
